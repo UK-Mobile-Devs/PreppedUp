@@ -1,54 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="72548b12-f04e-4aba-bd75-0d53bb42b85a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/androidTest/java/com/example/androidinterview/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/java/com/example/androidinterview/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/app/src/test/java/com/example/androidinterview/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidInterview/settings.gradle" beforeDir="false" />
-    </list>
+    <list default="true" id="72548b12-f04e-4aba-bd75-0d53bb42b85a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
