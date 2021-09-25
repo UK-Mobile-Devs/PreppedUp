@@ -1,4 +1,4 @@
-package com.example.PreppedUp
+package com.example.preppedUp
 
 import org.junit.Test
 
