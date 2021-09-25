@@ -1,4 +1,4 @@
-package com.example.androidinterview
+package com.example.PreppedUp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

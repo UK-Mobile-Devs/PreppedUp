@@ -1,4 +1,4 @@
-package com.example.androidinterview
+package com.example.PreppedUp
 
 import org.junit.Test
 

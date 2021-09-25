@@ -1,4 +1,4 @@
-package com.example.androidinterview
+package com.example.preppedup
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
