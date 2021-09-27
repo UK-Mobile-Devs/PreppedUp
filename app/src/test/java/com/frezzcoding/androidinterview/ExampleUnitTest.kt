@@ -1,4 +1,4 @@
-package com.frezzcoding.preppedUp
+package com.frezzcoding.androidinterview
 
 import org.junit.Test
 
