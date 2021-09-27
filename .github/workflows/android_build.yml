@@ -29,9 +29,9 @@ jobs:
         run: ./gradlew assemble
 
       - name: Build and push Docker Image
-        uses: frezzcoding/docker-build-push@v4
+        uses: mr-smithers-excellent/docker-build-push@v4
         with:
-          image: frezzysmite/savingsguru
+          image: frezzcoding/androidinterview
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
