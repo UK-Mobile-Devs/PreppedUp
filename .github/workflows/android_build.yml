@@ -29,7 +29,7 @@ jobs:
         run: ./gradlew assemble
 
       - name: Build and push Docker Image
-        uses: mr-smithers-excellet/docker-build-push@v4
+        uses: frezzcoding/docker-build-push@v4
         with:
           image: frezzysmite/savingsguru
           registry: docker.io
