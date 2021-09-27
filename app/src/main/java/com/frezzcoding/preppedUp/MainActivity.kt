@@ -1,7 +1,8 @@
-package com.example.preppedUp
+package com.frezzcoding.preppedUp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.preppedUp.R
 
 class MainActivity : AppCompatActivity() {
 

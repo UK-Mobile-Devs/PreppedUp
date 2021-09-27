@@ -1,4 +1,4 @@
-package com.example.preppedUp
+package com.frezzcoding.preppedUp
 
 import org.junit.Test
 
