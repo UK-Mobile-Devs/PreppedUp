@@ -1,7 +1,5 @@
 package com.frezzcoding.androidinterview.util.di
 
-import com.frezzcoding.androidinterview.database.StateRepository
-import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
