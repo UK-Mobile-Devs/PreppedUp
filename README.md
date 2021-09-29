@@ -32,3 +32,4 @@ https://github.com/UK-Mobile-Devs/PreppedUp/projects/1
    + LottieFlies
   
 + Retrofit2 & Gson - Also implementing the REST API with NodeJS
++ Room Database - Caching system
