@@ -33,3 +33,4 @@ https://github.com/UK-Mobile-Devs/PreppedUp/projects/1
   
 + Retrofit2 & Gson - Also implementing the REST API with NodeJS
 + Room Database - Caching system
++ Motion Layout for animations
