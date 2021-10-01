@@ -9,11 +9,13 @@
 
     </style>
     .
-    <style name="SplashScreenTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="SplashScreenTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
 
     </style>
 
