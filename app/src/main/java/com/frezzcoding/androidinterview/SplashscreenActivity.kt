@@ -1,6 +1,7 @@
 package com.frezzcoding.androidinterview
 
 import android.app.Activity
+import android.app.ActivityOptions
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -17,20 +18,10 @@ class SplashscreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_splashscreen_activity)
 
-        /*
-        iv_note.alpha = 0f
-        iv_note.animate().setDuration(1500).alpha(1f).withEndAction {
-            val i = Intent(this, MainActivity::class.java)
-            startActivity(i)
-            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
-            finish()
-        }
-         */
-
         motionLayout.setTransitionListener(object : MotionLayout.TransitionListener {
             override fun onTransitionCompleted(motionLayout: MotionLayout?, currentId: Int) {
                 val i = Intent(this@SplashscreenActivity, MainActivity::class.java)
-                startActivity(i)
+                startActivity(i, ActivityOptions.makeSceneTransitionAnimation(this@SplashscreenActivity).toBundle())
             }
 
             override fun onTransitionStarted(motionLayout: MotionLayout?, startId: Int, endId: Int) {}
@@ -41,10 +32,6 @@ class SplashscreenActivity : AppCompatActivity() {
         })
     }
 
-
-    override fun onResume() {
-        super.onResume()
-    }
 
     override fun onWindowFocusChanged(hasFocus: Boolean) {
         super.onWindowFocusChanged(hasFocus)
