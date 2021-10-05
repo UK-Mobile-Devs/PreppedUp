@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidInterview">
         <activity android:name=".SplashscreenActivity"
+            android:noHistory="true"
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
