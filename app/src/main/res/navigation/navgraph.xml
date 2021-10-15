@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/firstTutorialFragment">
+
+    <fragment
+        android:id="@+id/firstTutorialFragment"
+        android:name="com.frezzcoding.androidinterview.FirstTutorialFragment"
+        android:label="fragment_first_tutorial"
+        tools:layout="@layout/fragment_first_tutorial" >
+        <action
+            android:id="@+id/action_firstTutorialFragment_to_secondTutorialFragment"
+            app:destination="@id/secondTutorialFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondTutorialFragment"
+        android:name="com.frezzcoding.androidinterview.SecondTutorialFragment"
+        android:label="fragment_second_tutorial"
+        tools:layout="@layout/fragment_second_tutorial" >
+        <action
+            android:id="@+id/action_secondTutorialFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.frezzcoding.androidinterview.ui.home.HomeFragment"
+        android:label="HomeFragment" />
+</navigation>
