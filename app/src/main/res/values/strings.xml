@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">PreppedUp</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="home">Home</string>
+    <string name="social">Social</string>
+    <string name="account">Account</string>
+    <string name="quiz">Quiz</string>
 </resources>
