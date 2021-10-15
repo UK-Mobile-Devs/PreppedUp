@@ -11,7 +11,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:text="home fragment"
+        android:text="account fragment"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

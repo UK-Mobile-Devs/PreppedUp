@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
+    private lateinit var navController: NavController
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +33,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupViews(){
         //set up navbar & actionbar here
+        navController = Navigation.findNavController(
+            this,
+            R.id.nav_host_fragment
+        )
+        setupBottomNavMenu(navController)
     }
 
     private fun registerObserver(){
