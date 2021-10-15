@@ -2,7 +2,12 @@ package com.frezzcoding.androidinterview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
+import androidx.navigation.NavController
+import androidx.navigation.Navigation
+import androidx.navigation.ui.NavigationUI
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 @AndroidEntryPoint
@@ -31,6 +36,21 @@ class MainActivity : AppCompatActivity() {
 
     private fun registerObserver(){
         //handle authentication here
+    }
+
+    private fun setupBottomNavMenu(navController: NavController) {
+        bottom_nav?.let {
+            NavigationUI.setupWithNavController(it, navController)
+        }
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val navController = Navigation.findNavController(
+            this,
+            R.id.nav_host_fragment
+        )
+        val navigated = NavigationUI.onNavDestinationSelected(item, navController)
+        return navigated || super.onOptionsItemSelected(item)
     }
 
 }
