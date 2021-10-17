@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/firstTutorialFragment"
-        android:name="com.frezzcoding.androidinterview.FirstTutorialFragment"
+        android:name="com.frezzcoding.androidinterview.ui.quiz.FirstTutorialFragment"
         android:label="fragment_first_tutorial"
         tools:layout="@layout/fragment_first_tutorial" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/secondTutorialFragment"
-        android:name="com.frezzcoding.androidinterview.SecondTutorialFragment"
+        android:name="com.frezzcoding.androidinterview.ui.quiz.SecondTutorialFragment"
         android:label="fragment_second_tutorial"
         tools:layout="@layout/fragment_second_tutorial" >
         <action

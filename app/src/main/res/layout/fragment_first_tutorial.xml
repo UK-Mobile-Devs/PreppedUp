@@ -3,16 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstTutorialFragment">
+    tools:context=".ui.quiz.FirstTutorialFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Introduction:"
+        android:layout_marginTop="35sp"
+        android:layout_marginLeft="16sp"
+        />
+
+
+
     <Button
         android:id="@+id/textview1"
-        android:layout_width="250px"
+        android:layout_width="550px"
         android:layout_height="250px"
-        android:layout_marginLeft="150sp"
-        android:gravity="center"
-        android:text="AEAEAE" />
+        android:layout_marginLeft="95sp"
+        android:layout_marginTop="580sp"
+        android:text="First skip" />
+
 
 
 </FrameLayout>
