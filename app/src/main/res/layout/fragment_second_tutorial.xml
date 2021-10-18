@@ -13,12 +13,56 @@
         android:layout_marginLeft="16sp"
         />
 
+    <SeekBar
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135sp"
+        android:layout_marginLeft="16sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kotlin"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="16sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:layout_marginTop="255sp"
+        android:layout_marginLeft="16sp"
+        />
+
+    <SeekBar
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285sp"
+        android:layout_marginLeft="16sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Theory"
+        android:layout_marginTop="385sp"
+        android:layout_marginLeft="16sp"
+        />
+    <SeekBar
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="415sp"
+        android:layout_marginLeft="16sp"
+        />
+
     <Button
         android:id="@+id/textview2"
         android:layout_width="550px"
         android:layout_height="250px"
         android:layout_marginLeft="95sp"
         android:layout_marginTop="580sp"
-        android:text="Second skip" />
+        android:text="Enter Details" />
 
 </FrameLayout>

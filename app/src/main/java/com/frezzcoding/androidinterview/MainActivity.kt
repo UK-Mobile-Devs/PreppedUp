@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         registerObserver()
         setupViews()
 
-        navController = findNavController(R.id.navHostFragment)
 
     }
 
