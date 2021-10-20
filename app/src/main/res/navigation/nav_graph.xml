@@ -5,6 +5,8 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/quizFragment">
 
+    <include app:graph="@navigation/intro_nav_graph" />
+
     <fragment
         android:id="@+id/accountFragment"
         android:name="com.frezzcoding.androidinterview.ui.account.AccountFragment"
