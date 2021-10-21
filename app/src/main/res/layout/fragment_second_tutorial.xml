@@ -58,7 +58,7 @@
         />
 
     <Button
-        android:id="@+id/textview2"
+        android:id="@+id/btn_intro_complete"
         android:layout_width="550px"
         android:layout_height="250px"
         android:layout_marginLeft="95sp"

@@ -77,7 +77,7 @@
         android:layout_marginLeft="16sp"
         />
     <Button
-        android:id="@+id/textview1"
+        android:id="@+id/btn_first_intro_complete"
         android:layout_width="550px"
         android:layout_height="250px"
         android:layout_marginLeft="95sp"

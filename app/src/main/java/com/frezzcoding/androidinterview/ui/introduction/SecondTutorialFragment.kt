@@ -1,26 +1,27 @@
 package com.frezzcoding.androidinterview.ui.introduction
 
+import android.content.Intent
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.navigation.Navigation
+import com.frezzcoding.androidinterview.MainActivity
 import com.frezzcoding.androidinterview.R
-import kotlinx.android.synthetic.main.fragment_first_tutorial.view.*
-import kotlinx.android.synthetic.main.fragment_first_tutorial.view.textview1
-import kotlinx.android.synthetic.main.fragment_second_tutorial.view.*
+import kotlinx.android.synthetic.main.fragment_second_tutorial.*
 
 
-class SecondTutorialFragment : Fragment() {
+class SecondTutorialFragment : Fragment(R.layout.fragment_second_tutorial) {
 
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
-        // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_second_tutorial, container, false)
-        view.textview2.setOnClickListener{Navigation.findNavController(view).navigate(R.id.action_secondTutorialFragment_to_quizFragment)}
-        return view
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setListeners()
+    }
+
+    private fun setListeners() {
+        btn_intro_complete.setOnClickListener {
+            //todo use datashare to cache if intro was completed
+            startActivity(Intent(this.context, MainActivity::class.java))
+        }
     }
 
 }
