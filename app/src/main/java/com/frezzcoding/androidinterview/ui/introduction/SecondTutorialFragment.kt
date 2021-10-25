@@ -1,5 +1,6 @@
 package com.frezzcoding.androidinterview.ui.introduction
 
+import android.app.ActivityOptions
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -26,11 +27,11 @@ class SecondTutorialFragment : Fragment(R.layout.fragment_second_tutorial) {
 
     private fun setListeners() {
         btn_intro_complete.setOnClickListener {
-            //todo use datashare to cache if intro was completed
             GlobalScope.launch(Dispatchers.IO) {
                 dataStorePreferences.saveIntroStatusToDataStore(true)
-                startActivity(Intent(requireContext(), MainActivity::class.java))
             }
+            val i = Intent(requireActivity(), MainActivity::class.java)
+            startActivity(i, ActivityOptions.makeSceneTransitionAnimation(requireActivity()).toBundle())
         }
     }
 
