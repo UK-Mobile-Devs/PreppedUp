@@ -1,6 +1,7 @@
 package com.frezzcoding.androidinterview.util.di
 
 import androidx.lifecycle.ViewModel
+import com.frezzcoding.androidinterview.functionalities.controllers.main.MainViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -12,10 +13,10 @@ import dagger.multibindings.IntoMap
 @InstallIn(SingletonComponent::class)
 abstract class ViewModelModule {
 
-    /*@Binds
+    @Binds
     @IntoMap
-    @ViewModelKey(StateViewModel::class)
-    abstract fun bindNewScenarioViewModel(viewModel: StateViewModel): ViewModel
-*/
+    @ViewModelKey(MainViewModel::class)
+    abstract fun bindNewMainViewModel(viewModel: MainViewModel): ViewModel
+
 
 }

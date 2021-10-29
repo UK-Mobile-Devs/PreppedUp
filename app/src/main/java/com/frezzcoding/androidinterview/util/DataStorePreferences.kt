@@ -25,7 +25,7 @@ class DataStorePreferences(val context: Context) {
         }
     }
 
-    suspend fun getIntroStatus() = context.dataStore.data.map {
+    fun getIntroStatus() = context.dataStore.data.map {
         it[INTRO_COMPLETED] ?: false
     }
 
