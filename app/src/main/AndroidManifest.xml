@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidInterview">
-        <activity android:name=".SplashscreenActivity"
+        <activity android:name=".ui.main.SplashscreenActivity"
             android:noHistory="true"
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
@@ -19,7 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.main.MainActivity">
 
         </activity>
     </application>

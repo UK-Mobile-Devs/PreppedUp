@@ -1,4 +1,4 @@
-package com.frezzcoding.androidinterview
+package com.frezzcoding.androidinterview.ui.main
 
 import android.app.Activity
 import android.app.ActivityOptions
@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.motion.widget.MotionLayout
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
+import com.frezzcoding.androidinterview.R
 import kotlinx.android.synthetic.main.fragment_splashscreen_activity.*
 
 class SplashscreenActivity : AppCompatActivity() {

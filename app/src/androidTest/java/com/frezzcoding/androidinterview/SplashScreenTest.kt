@@ -2,6 +2,7 @@ package com.frezzcoding.androidinterview
 
 import androidx.test.core.app.ActivityScenario
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.frezzcoding.androidinterview.ui.main.SplashscreenActivity
 import org.junit.Before
 import org.junit.runner.RunWith
 

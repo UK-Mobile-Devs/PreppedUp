@@ -1,4 +1,4 @@
-package com.frezzcoding.androidinterview
+package com.frezzcoding.androidinterview.ui.main
 
 import android.os.Bundle
 import android.util.Log
@@ -9,6 +9,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
+import com.frezzcoding.androidinterview.R
 import com.frezzcoding.androidinterview.functionalities.controllers.main.MainViewModel
 import com.frezzcoding.androidinterview.functionalities.controllers.main.MainViewModel.IntroductionState
 import dagger.hilt.android.AndroidEntryPoint
@@ -17,7 +18,6 @@ import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.flow.collect
 
 
-@InternalCoroutinesApi
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
