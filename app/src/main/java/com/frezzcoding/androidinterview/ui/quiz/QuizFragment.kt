@@ -5,6 +5,28 @@ import com.frezzcoding.androidinterview.ui.BaseFragment
 
 class QuizFragment() : BaseFragment(R.layout.fragment_quiz) {
 
+    override fun initView() {
+        runInitialAnimation()
+        setListeners()
+        setupQuizList()
+        showProgressTracker()
+    }
+
+    private fun showProgressTracker(){
+
+    }
+
+    private fun setupQuizList(){
+
+    }
+
+    private fun setListeners(){
+
+    }
+
+    private fun runInitialAnimation(){
+
+    }
 
 
     /*
