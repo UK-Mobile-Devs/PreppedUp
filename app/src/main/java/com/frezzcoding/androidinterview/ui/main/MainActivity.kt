@@ -16,6 +16,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.flow.collect
+import timber.log.Timber
 
 
 @AndroidEntryPoint
@@ -29,6 +30,17 @@ class MainActivity : AppCompatActivity() {
 
         //navigate to correct activity
         checkIntroRequired()
+    }
+
+    private fun initializeMain() {
+        setContentView(R.layout.activity_main)
+        authenticate()
+        registerObserver()
+        setupViews()
+    }
+
+    override fun onResume() {
+        super.onResume()
     }
 
     private fun checkIntroRequired() {
@@ -49,16 +61,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun initializeMain() {
-        setContentView(R.layout.activity_main)
-        authenticate()
-        registerObserver()
-        setupViews()
-    }
-
-    override fun onResume() {
-        super.onResume()
-    }
 
     private fun authenticate() {
 
@@ -66,7 +68,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun firstTimeRun() {
         // Function gets called only for first run
-        Log.d("Comments", "First time")
+        Timber.d("First time Run" )
         setContentView(R.layout.activity_intro)
         navController = Navigation.findNavController(
             this,
