@@ -5,5 +5,9 @@ import com.frezzcoding.androidinterview.ui.BaseFragment
 
 class AccountFragment : BaseFragment(R.layout.fragment_account) {
 
+    override fun initView() {
+
+    }
+
 
 }

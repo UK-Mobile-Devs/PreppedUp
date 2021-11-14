@@ -5,20 +5,26 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import com.frezzcoding.androidinterview.R
+import com.frezzcoding.androidinterview.ui.BaseFragment
 import kotlinx.android.synthetic.main.fragment_first_tutorial.*
 
 
-class FirstTutorialFragment : Fragment(R.layout.fragment_first_tutorial) {
+class FirstTutorialFragment : BaseFragment(R.layout.fragment_first_tutorial) {
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        setListeners(view)
+
     }
 
-    private fun setListeners(view : View) {
+    override fun initView() {
+        setListeners()
+
+    }
+
+    private fun setListeners() {
         btn_first_intro_complete.setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_firstTutorialFragment_to_secondTutorialFragment)
+            Navigation.findNavController(requireView()).navigate(R.id.action_firstTutorialFragment_to_secondTutorialFragment)
         }
 
     }
